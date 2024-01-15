@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.nav-container {
+    margin: 52px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.nav-title {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+
+.nav-link a {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-link span {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-link ul{
+    list-style: none;
+    display: flex;
+    gap: 44px;
+    
+}
+
+.link-drop-bar{
+    cursor: pointer;
+    display: none;
+    
+}

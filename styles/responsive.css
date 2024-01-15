@@ -1,0 +1,77 @@
+@media screen and (max-width: 576px) {
+
+    /* Nav Section START */
+    .nav-logo h3 {
+        font-size: 1.34644rem;
+    }
+
+    .nav-logo span {
+        font-size: 1.34644rem;
+    }
+
+    .nav-container img {
+        width: 1.79525rem;
+        height: 2.09475rem;
+    }
+
+    .link-drop-down {
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    /* Nav Section END */
+
+    /* Nested Menu Styles START */
+
+    .nav-link {
+        display: none;
+    }
+
+    .link-drop-bar {
+        cursor: pointer;
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    
+    }
+
+    .link-drop-bar ul {
+        list-style: none;
+
+    }
+
+    .link-drop-bar a {
+        color: #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 6px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .drop-down {
+        display: none;
+        position: absolute;
+        right: 2rem;
+        background-color: rgba(255, 84, 0, 0.26);
+        border-radius: 2px;
+        text-align: center;
+        padding: 0 5px;
+        gap: 1px;
+
+    }
+
+    .link-drop-bar:hover .drop-down {
+        display: block;
+    }
+
+    /* Nested Menu Styles END */
+
+
+
+}
