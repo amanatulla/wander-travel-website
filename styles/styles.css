@@ -1,5 +1,9 @@
+/* Google Font  */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap');
 
+
+/* Universal */
 * {
     margin: 0%;
     padding: 0%;
@@ -13,13 +17,13 @@
     margin: 0 auto;
 }
 
+/* Nav Section START */
 
 .nav-container {
     margin: 52px 0 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .nav-logo {
@@ -32,7 +36,6 @@
     font-family: Mulish;
     font-size: 36px;
     font-weight: 800;
-
 }
 
 .nav-title {
@@ -41,8 +44,6 @@
     font-size: 36px;
     font-weight: 800;
 }
-
-
 
 .nav-link a {
     color: #424247;
@@ -65,15 +66,87 @@
     line-height: normal;
 }
 
-.nav-link ul{
+.nav-link ul {
     list-style: none;
     display: flex;
     gap: 44px;
-    
 }
 
-.link-drop-bar{
+.link-drop-bar {
     cursor: pointer;
     display: none;
-    
+}
+
+/* Nav Section END */
+
+/* -------------------------------------- */
+
+/* Banner Section START */
+
+.banner-container {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 1rem;
+    width: 73.125rem;
+    height: 31.25rem;
+    margin-top: 3.06rem;
+}
+
+.banner-text {
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-text h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 6.62rem 17.94rem 0 17.94rem;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 42.25rem;
+    padding: 0 15.44rem;
+
+}
+
+.search-container {
+    display: inline-flex;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    /* margin-top:3rem ; */
+    margin: 3rem 11.56rem 0 11.56rem;
+}
+
+input[type=text] {
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+input[type=button] {
+    width: 10.875rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: none;
+    padding: 1rem 0 1rem 1rem;
+
 }
