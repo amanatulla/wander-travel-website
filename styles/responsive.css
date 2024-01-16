@@ -82,8 +82,6 @@
         margin: 1.11rem 1.25rem 0 1.25rem;
     }
 
-    .banner-text {}
-
     .banner-text h3 {
         color: #FFF;
         text-align: center;
@@ -124,7 +122,7 @@
         gap: 1rem;
     }
 
-    input[type=text] {
+    .search-container input[type=text] {
         color: rgba(19, 19, 24, 0.50);
         text-align: center;
         font-size: 1rem;
@@ -134,7 +132,7 @@
 
     }
 
-    input[type=button] {
+    .search-container input[type=button] {
         width: 15.9375rem;
         height: 3.25rem;
         flex-shrink: 0;
@@ -222,10 +220,12 @@
         height: 176px;
 
     }
+
     .sec-column img {
         width: 335px;
         height: 176px;
     }
+
     .thr-column img {
         width: 335px;
         height: 176px;
@@ -237,25 +237,28 @@
 
     /* <!-- Why Choose Us START --> */
 
-    .choose-section  h3 {
+    .choose-section h3 {
         font-size: 1.25rem;
     }
 
-    .choose-section > p {
+    .choose-section>p {
         font-size: 0.875rem;
         width: 19.3125rem;
         margin: 1rem 2.06rem 1rem 2.06rem;
     }
 
-    .choose-section-container p{
+    .choose-section-container p {
         font-size: 0.875rem;
-        line-height: 1.5rem; /* 171.429% */
+        line-height: 1.5rem;
+        /* 171.429% */
         width: 16.9375rem;
         padding: 0 2rem 2rem 0;
     }
 
-    .choose-img1, .choose-img2, .choose-img3 {
-        width: 20.9375rem; 
+    .choose-img1,
+    .choose-img2,
+    .choose-img3 {
+        width: 20.9375rem;
     }
 
     .choose-section-container {
@@ -267,13 +270,86 @@
         justify-self: normal;
         grid-column-start: auto;
     }
-        /* <!-- Why Choose Us END --> */
 
-        /* --------------------------------------- */
+    /* <!-- Why Choose Us END --> */
 
-        /* section Newsletter start */
+    /* --------------------------------------- */
 
+    /* section Newsletter start */
 
+    .newsletter-section {
+        margin-top: 24px;
+    }
+
+    .text-from {
+        width: 335px;
+        height: 353px;
+    }
+
+    .text-from h3 {
+        font-size: 20px;
+        padding: 24px 0 8px 23.5px;
+    }
+
+    .text-from p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 270px;
+        padding-left: 23.5px;
+    }
+
+    .text-from hr {
+        width: 288px;
+        margin: 16px 23.5px;
+    }
+
+    .subscribe-form input[type=text],
+    input[type=email] {
+        font-size: 16px;
+        width: 288px;
+        height: 52px;
+        padding-left: 1px;
+        margin: 0 23.5px 16px 23.5px;
+
+    }
+
+    .subscribe-form input[type=submit] {
+        width: 288px;
+        height: 52px;
+        font-size: 20px;
+        padding-left: 20px;
+        margin: 0 23.5px 16px 23.5px;
+    }
+
+    .new-img img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 335px;
+        height: 300px;
+        margin-top: 16px;
+    }
+
+    .off-70 h5 {
+        font-size: 15.854px;
+        padding-top: 10px;
+    }
+
+    .off-70 h3 {
+        font-size: 21.138px;
+    }
+
+    .off-70 {
+        width: 214.023px;
+        height: 79.268px;
+        bottom: 42px;
+        left: 110px;
+    }
+
+    /* section Newsletter END */
+    /* --------------------------------------- */
+
+    
 
 
 
