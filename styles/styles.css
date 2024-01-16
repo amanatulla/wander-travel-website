@@ -161,9 +161,15 @@
     display: flex;
     justify-items: space-between;
     align-items: center;
-    margin: 6.25rem auto 0 8.44rem;
+    margin: 50px auto;
     gap: 3.13rem;
 }
+
+.Popular-tour-text{
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 .Popular-tour-text h3 {
     color: #131318;
@@ -182,7 +188,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem;
-    width: 36.0625rem;
     margin-bottom: 1rem;
 }
 
@@ -193,7 +198,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem;
-    width: 32.8125rem;
+    /* width: 32.8125rem; */
     margin: 0 0 1rem 1.22rem;
 }
 
