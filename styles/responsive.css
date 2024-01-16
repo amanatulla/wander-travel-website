@@ -1,5 +1,4 @@
 @media screen and (max-width: 576px) {
-
     /* Nav Section START */
     .nav-logo h3 {
         font-size: 1.34644rem;
@@ -349,9 +348,50 @@
     /* section Newsletter END */
     /* --------------------------------------- */
 
-    
+    /* Footer Section */
 
+    footer {
+        width: 375px;
+        height: 330px;
+        margin: 24px 0 0 0;
+    }
 
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 33.2px;
+    }
 
+    .footer-logo img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .footer-logo>h3 {
+        font-size: 21.543px;
+    }
+
+    .footer-title {
+        font-size: 21.543px;
+    }
+
+    footer p {
+        width: 287px;
+        font-size: 14px;
+        padding: 16px 44px;
+    }
+
+    hr {
+        width: 335px;
+        height: 1px;
+        margin: 24px 20px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    /* Footer Section END */
 
 }
