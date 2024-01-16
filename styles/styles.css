@@ -122,7 +122,6 @@
     gap: 1.5rem;
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.30);
-    /* margin-top:3rem ; */
     margin: 3rem 11.56rem 0 11.56rem;
 }
 
@@ -204,8 +203,6 @@ button {
     border-radius: 0.5rem;
     background: #FF5400;
     padding: 0.84rem 1.52rem;
-    /* width: 10.875rem;
-    height: 3.25rem; */
     flex-shrink: 0;
     border: none;
 }
@@ -216,7 +213,7 @@ button {
 
 /* <!-- Choose Your Destination START --> */
 
-.section-destination{
+.section-destination {
     margin-top: 6.25rem;
 }
 
@@ -239,40 +236,125 @@ button {
     margin: 1.5rem 16.47rem 0 16.47rem;
 }
 
-.first-column img{
+.first-column img {
     width: 573px;
     height: 300px;
 }
 
-.first-column{
+.first-column {
     display: grid;
-    justify-items:center;
+    justify-items: center;
     grid-template-columns: 573px 573px;
     gap: 24px;
     margin-top: 24px;
 }
 
-/* .sec-column img{
-    width: 100%;
-    height: 100%;
-} */
-
-.sec-column{
+.sec-column {
     display: grid;
     grid-template-columns: 374px 474px 274px;
     gap: 24px;
     margin-top: 24px;
 }
 
-.thr-column{
+.thr-column {
     display: grid;
     grid-template-columns: 473px 673px;
     gap: 24px;
     margin-top: 24px;
 }
 
-    /* <!-- Choose Your Destination END --> */
+/* <!-- Choose Your Destination END --> */
 
-    /* --------------------------------------- */
+/* --------------------------------------- */
 
-    /* <!-- Why Choose Us START --> */
+/* <!-- Why Choose Us START --> */
+
+.choose-section {
+    margin-top: 6.25rem;
+}
+
+.choose-section > h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-section > p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 1.5rem 16.5rem 3rem 16.5rem;
+}
+
+.choose-section-container h3 {
+    color: #131318;
+     font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 2rem 0 0 0;
+}
+
+.choose-section-container p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 30.375rem;
+    padding: 1rem 0 0 0;
+}
+
+.choose-img1 {
+    width: 33.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem 0 0 2rem;
+}
+
+.choose-img2 {
+    width: 33.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem 0 0 2rem;
+}
+
+.choose-img3 {
+    width: 33.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 2rem 0 0 2rem;
+}
+
+.choose-section-container {
+    display: grid;
+    grid-template-columns: 573px, 573px;
+    grid-column: auto;
+    gap: 1.5rem;
+}
+
+.choose-section-container .choose-img3 {
+    justify-self: center;
+    grid-column-start: span 2;
+}
+
+ /* <!-- Why Choose Us END --> */
+
+ /* --------------------------------------- */
+
+ /* section Newsletter start */
+
+
+ 

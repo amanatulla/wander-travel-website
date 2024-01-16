@@ -209,7 +209,6 @@
         margin: 1rem 2.06rem 0 2.06rem;
     }
 
-
     .first-column,
     .sec-column,
     .thr-column {
@@ -226,12 +225,10 @@
     .sec-column img {
         width: 335px;
         height: 176px;
-
     }
     .thr-column img {
         width: 335px;
         height: 176px;
-
     }
 
     /* <!-- Choose Your Destination END --> */
@@ -240,9 +237,41 @@
 
     /* <!-- Why Choose Us START --> */
 
+    .choose-section  h3 {
+        font-size: 1.25rem;
+    }
 
-    
+    .choose-section > p {
+        font-size: 0.875rem;
+        width: 19.3125rem;
+        margin: 1rem 2.06rem 1rem 2.06rem;
+    }
 
+    .choose-section-container p{
+        font-size: 0.875rem;
+        line-height: 1.5rem; /* 171.429% */
+        width: 16.9375rem;
+        padding: 0 2rem 2rem 0;
+    }
+
+    .choose-img1, .choose-img2, .choose-img3 {
+        width: 20.9375rem; 
+    }
+
+    .choose-section-container {
+        grid-template-columns: 335px;
+        gap: 1rem;
+    }
+
+    .choose-section-container .choose-img3 {
+        justify-self: normal;
+        grid-column-start: auto;
+    }
+        /* <!-- Why Choose Us END --> */
+
+        /* --------------------------------------- */
+
+        /* section Newsletter start */
 
 
 
