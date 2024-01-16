@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+
     /* Nav Section START */
     .nav-logo h3 {
         font-size: 1.34644rem;
@@ -100,25 +101,10 @@
         padding: 0 0.97rem 0 0.97rem;
     }
 
-    .search-container {
-        display: flex;
-        width: 17.9375rem;
-        padding: 1rem;
+    .search-container form{
         flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-        margin: 2rem 0 0 1.5rem;
-    }
-
-    .search-container {
-        border-radius: 0.5rem;
-        background: rgba(255, 255, 255, 0.30);
-        display: flex;
-        width: 17.9375rem;
-        padding: 1rem;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
+        gap: 16px;
+        margin-top: 32px;
     }
 
     .search-container input[type=text] {
@@ -128,6 +114,7 @@
         font-weight: 400;
         width: 15.9375rem;
         height: 3.25rem;
+        padding-left: 0px;
 
     }
 
@@ -189,7 +176,7 @@
         margin-top: 1.5rem;
     }
 
-    .section-destination h3 {
+    .section-destination>h3 {
         color: #131318;
         text-align: center;
         font-size: 1.25rem;
@@ -205,6 +192,20 @@
         width: 19.3125rem;
         margin: 1rem 2.06rem 0 2.06rem;
     }
+
+    .flex-img-1,
+    .flex-img-2,
+    .flex-img-3,
+    .flex-img-4,
+    .flex-img-5,
+    .flex-img-6,
+    .flex-img-7 {
+        width: 335px;
+        height: 176px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
     .first-column,
     .sec-column,
@@ -249,7 +250,6 @@
     .choose-section-container p {
         font-size: 0.875rem;
         line-height: 1.5rem;
-        /* 171.429% */
         width: 16.9375rem;
         padding: 0 2rem 2rem 0;
     }
@@ -271,6 +271,51 @@
     }
 
     /* <!-- Why Choose Us END --> */
+
+    /* --------------------------------------- */
+
+    /* Video Section START */
+
+    .video-section {
+        margin-top: 24px;
+        flex-direction: column;
+    }
+
+    .video-section h3 {
+        font-size: 20px;
+        width: 248px;
+        padding-bottom: 16px;
+        line-height: 30px
+    }
+
+    .video-section p {
+        width: 335px;
+        font-size: 14px;
+        padding-bottom: 16px;
+    }
+
+    .video-section li {
+        font-size: 14px;
+        width: 335px;
+    }
+
+    .video-link video {
+        width: 335px;
+        height: 200px;
+    }
+
+    .video-link h3 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 276px;
+    }
+
+    .video-link {
+        width: 335px;
+        height: 200px;
+    }
+
+    /* Video Section END */
 
     /* --------------------------------------- */
 
