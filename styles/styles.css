@@ -113,7 +113,6 @@
     line-height: 1.625rem;
     width: 42.25rem;
     padding: 0 15.44rem;
-
 }
 
 .search-container {
@@ -148,5 +147,65 @@ input[type=button] {
     background: #FF5400;
     border: none;
     padding: 1rem 0 1rem 1rem;
+}
 
+/* Banner Section END */
+
+/* --------------------------------------- */
+
+/* Popular Tour Section START */
+
+.Popular-tour {
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    margin: 6.25rem auto 0 8.44rem;
+    gap: 3.13rem;
+}
+
+.Popular-tour-text h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.Popular-tour-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 36.0625rem;
+    margin-bottom: 1rem;
+}
+
+.Popular-tour-text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 32.8125rem;
+    margin: 0 0 1rem 1.22rem;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    padding: 0.84rem 1.52rem;
+    /* width: 10.875rem;
+    height: 3.25rem; */
+    flex-shrink: 0;
+    border: none;
 }
