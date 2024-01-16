@@ -173,25 +173,80 @@
         width: 20.9375rem;
     }
 
-    .Popular-tour-img {
+    .Popular-tour-img img {
         width: 20.9375rem;
         height: 100%;
         /* height: 21.375rem; */
-        flex-shrink: 0;
         background-repeat: no-repeat;
         background-position-x: center;
-        
 
     }
 
+    /* Popular Tour Section END */
+
+    /* --------------------------------------- */
+
+    /* <!-- Choose Your Destination START --> */
+
+    .section-destination {
+        margin-top: 1.5rem;
+    }
+
+    .section-destination h3 {
+        color: #131318;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 800;
+
+    }
+
+    .section-destination p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        width: 19.3125rem;
+        margin: 1rem 2.06rem 0 2.06rem;
+    }
+
+
+    .first-column,
+    .sec-column,
+    .thr-column {
+        /* width: 100%; */
+        grid-template-columns: 335px;
+        gap: 16px;
+    }
+
+    .first-column img {
+        width: 335px;
+        height: 176px;
+
+    }
+    .sec-column img {
+        width: 335px;
+        height: 176px;
+
+    }
+    .thr-column img {
+        width: 335px;
+        height: 176px;
+
+    }
+
+    /* <!-- Choose Your Destination END --> */
+
+    /* --------------------------------------- */
+
+    /* <!-- Why Choose Us START --> */
+
+
+    
 
 
 
 
 
-    width: 335px;
-    height: 483px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    margin: 1.11rem 1.25rem 0 1.25rem;
+
+
 }
