@@ -245,7 +245,7 @@ button {
 }
 
 .flex-img-1 {
-    width: 543px;
+    width: 573px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
@@ -255,7 +255,7 @@ button {
 }
 
 .flex-img-2 {
-    width: 543px;
+    width: 573px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Group\ 39.png), lightgray 50% / cover no-repeat;
@@ -265,7 +265,7 @@ button {
 }
 
 .flex-img-3 {
-    width: 354px;
+    width: 374px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
@@ -275,7 +275,7 @@ button {
 }
 
 .flex-img-4 {
-    width: 454px;
+    width: 474px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
@@ -285,7 +285,7 @@ button {
 }
 
 .flex-img-5 {
-    width: 254px;
+    width: 274px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
@@ -295,7 +295,7 @@ button {
 }
 
 .flex-img-6 {
-    width: 453px;
+    width: 473px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
@@ -305,7 +305,7 @@ button {
 }
 
 .flex-img-7 {
-    width: 653px;
+    width: 673px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
@@ -393,7 +393,7 @@ button {
 }
 
 .choose-img1 {
-    width: 525px;
+    width: 543px;
     height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -402,7 +402,7 @@ button {
 }
 
 .choose-img2 {
-    width: 525px;
+    width: 543px;
     height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -411,7 +411,7 @@ button {
 }
 
 .choose-img3 {
-    width: 525px;
+    width: 543px;
     height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -478,7 +478,7 @@ button {
 }
 
 .video-link video {
-    width: 602px;
+    width: 610px;
     height: 424px;
     border-radius: 16px;
     object-fit: cover;
@@ -496,7 +496,7 @@ button {
 
 .video-link div {
     border-radius: 16px;
-    width: 582px;
+    width: 610px;
     height: 424px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     position: relative;
@@ -587,7 +587,7 @@ input[type=email] {
 }
 
 .new-img img {
-    width: 638px;
+    width: 672px;
     height: 422px;
     position: absolute;
 }
@@ -618,7 +618,7 @@ input[type=email] {
     background: #FF5400;
     position: relative;
     bottom: -245px;
-    right: -296px;
+    right: -266px;
     z-index: -10px;
 }
 
