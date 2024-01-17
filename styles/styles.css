@@ -86,7 +86,7 @@
 .banner-container {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 1rem;
-    width: 73.125rem;
+    /* width: 73.125rem; */
     height: 31.25rem;
     margin-top: 3.06rem;
 }
@@ -115,7 +115,7 @@
     padding: 0 15.44rem;
 }
 
-.search-container form{
+.search-container form {
     display: flex;
     padding: 1rem;
     justify-content: center;
@@ -137,7 +137,7 @@
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
-    padding-left:16px ;
+    padding-left: 16px;
 }
 
 .search-container input[type=button] {
@@ -165,11 +165,10 @@
     gap: 3.13rem;
 }
 
-.Popular-tour-text{
+.Popular-tour-text {
     width: 90%;
     margin: 0 auto;
 }
-
 
 .Popular-tour-text h3 {
     color: #131318;
@@ -198,7 +197,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem;
-    /* width: 32.8125rem; */
     margin: 0 0 1rem 1.22rem;
 }
 
@@ -215,17 +213,19 @@ button {
     border: none;
 }
 
+.Popular-tour-img img {
+    width: 33.75rem;
+    height: 34.375rem;
+
+}
+
 /* Popular Tour Section END */
 
 /* --------------------------------------- */
 
 /* <!-- Choose Your Destination START --> */
 
-.section-destination {
-    margin-top: 6.25rem;
-}
-
-.section-destination > h3 {
+.section-destination>h3 {
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -244,21 +244,18 @@ button {
     margin: 1.5rem 16.47rem 0 16.47rem;
 }
 
-
-/* ----- */
 .flex-img-1 {
-    width: 573px;
+    width: 543px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .flex-img-2 {
-    width: 573px;
+    width: 543px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Group\ 39.png), lightgray 50% / cover no-repeat;
@@ -268,7 +265,7 @@ button {
 }
 
 .flex-img-3 {
-    width: 374px;
+    width: 354px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
@@ -278,7 +275,7 @@ button {
 }
 
 .flex-img-4 {
-    width: 474px;
+    width: 454px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
@@ -288,7 +285,7 @@ button {
 }
 
 .flex-img-5 {
-    width: 274px;
+    width: 254px;
     height: 286px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
@@ -298,7 +295,7 @@ button {
 }
 
 .flex-img-6 {
-    width: 473px;
+    width: 453px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
@@ -308,7 +305,7 @@ button {
 }
 
 .flex-img-7 {
-    width: 673px;
+    width: 653px;
     height: 300px;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
@@ -316,7 +313,6 @@ button {
     align-items: center;
     justify-content: center;
 }
-
 
 .first-column {
     display: grid;
@@ -328,14 +324,14 @@ button {
 
 .sec-column {
     display: grid;
-    grid-template-columns: 374px 474px 274px;
+    grid-template-columns: 2fr 3fr 1fr;
     gap: 24px;
     margin-top: 24px;
 }
 
 .thr-column {
     display: grid;
-    grid-template-columns: 473px 673px;
+    grid-template-columns: 2fr 3fr;
     gap: 24px;
     margin-top: 24px;
 }
@@ -392,13 +388,13 @@ button {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
-    width: 30.375rem;
+    width: 460px;
     padding: 1rem 0 0 0;
 }
 
 .choose-img1 {
-    width: 33.8125rem;
-    height: 17.75rem;
+    width: 525px;
+    height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -406,8 +402,8 @@ button {
 }
 
 .choose-img2 {
-    width: 33.8125rem;
-    height: 17.75rem;
+    width: 525px;
+    height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -415,8 +411,8 @@ button {
 }
 
 .choose-img3 {
-    width: 33.8125rem;
-    height: 17.75rem;
+    width: 525px;
+    height: 284px;
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
@@ -425,9 +421,8 @@ button {
 
 .choose-section-container {
     display: grid;
-    grid-template-columns: 573px, 573px;
-    grid-column: auto;
-    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .choose-section-container .choose-img3 {
@@ -438,7 +433,6 @@ button {
 /* <!-- Why Choose Us END --> */
 
 /* --------------------------------------- */
-
 
 /* Video Section START */
 
@@ -456,9 +450,8 @@ button {
     font-size: 40px;
     font-weight: 800;
     line-height: 60px;
-    width: 448px;
+    width: 418px;
     padding-bottom: 24px;
-
 }
 
 .video-section p {
@@ -468,9 +461,8 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    width: 532px;
-    padding-bottom: 24px;
-
+    width: 502px;
+    padding-bottom: 18px;
 }
 
 .video-section li {
@@ -480,14 +472,13 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    width: 518px;
+    width: 448px;
     padding-bottom: 16px;
-
+    margin-left: 30px;
 }
 
-
 .video-link video {
-    width: 610px;
+    width: 602px;
     height: 424px;
     border-radius: 16px;
     object-fit: cover;
@@ -503,9 +494,9 @@ button {
     width: 276px;
 }
 
-.video-link {
+.video-link div {
     border-radius: 16px;
-    width: 610px;
+    width: 582px;
     height: 424px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
     position: relative;
@@ -526,7 +517,8 @@ button {
 /* section Newsletter start */
 
 .newsletter-section {
-    position: relative;
+    display: flex;
+    gap: 1.5rem;
     margin-top: 100px;
 }
 
@@ -569,14 +561,14 @@ input[type=email] {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
     width: 393px;
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
-    padding-left: 20px;
+    padding-left: 2px;
     margin: 0 0 16px 40.5px;
-
 }
 
 .subscribe-form input[type=submit] {
@@ -584,9 +576,7 @@ input[type=email] {
     text-align: center;
     font-family: Mulish;
     font-size: 20px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     width: 393px;
     height: 52px;
     flex-shrink: 0;
@@ -594,13 +584,12 @@ input[type=email] {
     background: #FF5400;
     border: none;
     margin: 8px 0 0 40.5px;
-
 }
 
 .new-img img {
+    width: 638px;
+    height: 422px;
     position: absolute;
-    top: 0px;
-    left: 498px;
 }
 
 .off-70 h5 {
@@ -627,9 +616,10 @@ input[type=email] {
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
-    position: absolute;
-    bottom: 56px;
-    right: 10px;
+    position: relative;
+    bottom: -245px;
+    right: -296px;
+    z-index: -10px;
 }
 
 form {
